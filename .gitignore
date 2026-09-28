@@ -1,1 +1,17 @@
 /lsf
+/data_ebi
+/meta
+
+# Genomes, alignment caches, and per-base RepeatMasker output are large,
+# regenerable from the genome + classified library, and not suited to git.
+# Only the classified consensus libraries and .tbl summaries are tracked.
+data/**/input/*.genome.fasta
+data/**/input/*.repeatmodeler.fa
+data/**/input/*.genome.fasta.cat*.gz
+data/**/logs/
+data/**/work/
+data/**/results/work_outputs/
+data/**/results/repeatmasker/*.masked
+data/**/results/repeatmasker/*.out
+data/**/results/repeatmasker/*.out.gff
+data/**/results/repeatmasker/*.cat*.gz

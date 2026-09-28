@@ -1,0 +1,59 @@
+==================================================
+file name: GCA_929108735.1.genome.fasta
+sequences:           158
+total length:  277337111 bp  (277332111 bp excl N/X-runs)
+GC level:         42.99 %
+bases masked:   85392528 bp ( 30.79 %)
+==================================================
+               number of      length   percentage
+               elements*    occupied  of sequence
+--------------------------------------------------
+Retroelements        14148      6850912 bp    2.47 %
+   SINEs:              709       189404 bp    0.07 %
+   Penelope:           883       290825 bp    0.10 %
+   LINEs:             9540      3383473 bp    1.22 %
+    CRE/SLACS            0            0 bp    0.00 %
+     L2/CR1/Rex       1727       545523 bp    0.20 %
+     R1/LOA/Jockey    1271       972682 bp    0.35 %
+     R2/R4/NeSL          0            0 bp    0.00 %
+     RTE/Bov-B        1669       753924 bp    0.27 %
+     L1/CIN4            58        19874 bp    0.01 %
+   LTR elements:      3899      3278035 bp    1.18 %
+     BEL/Pao          1466       987236 bp    0.36 %
+     Ty1/Copia          95        59250 bp    0.02 %
+     Gypsy/DIRS1      2338      2231549 bp    0.80 %
+       Retroviral        0            0 bp    0.00 %
+
+DNA transposons      34846     10912382 bp    3.93 %
+   hobo-Activator    11768      2921516 bp    1.05 %
+   Tc1-IS630-Pogo     7833      2279799 bp    0.82 %
+   En-Spm                0            0 bp    0.00 %
+   MULE-MuDR             0            0 bp    0.00 %
+   PiggyBac           6592      1775175 bp    0.64 %
+   Tourist/Harbinger   513       151667 bp    0.05 %
+   Other (Mirage,      874       271983 bp    0.10 %
+    P-element, Transib)
+
+Rolling-circles       3298       859279 bp    0.31 %
+
+Unclassified:       261136     61008088 bp   22.00 %
+
+Total interspersed repeats:    79062207 bp   28.51 %
+
+
+Small RNA:            1452      3222745 bp    1.16 %
+
+Satellites:              0            0 bp    0.00 %
+Simple repeats:      44880      1898471 bp    0.68 %
+Low complexity:       7933       410315 bp    0.15 %
+==================================================
+
+* most repeats fragmented by insertions or deletions
+  have been counted as one element
+                                                      
+
+RepeatMasker version 4.1.7-p1 , default mode
+                                     
+run with rmblastn version 2.14.1+
+The query was compared to classified sequences in ".../GCA_929108735.1.repeatmodeler.fa.classified"
+FamDB: 

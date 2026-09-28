@@ -26,8 +26,10 @@ fi
 
 # helper: how many matching jobs currently in LSF?
 inflight_count() {
-  # bjobs can fail if no jobs; hide stderr.
-  bjobs -noheader 2>/dev/null | wc -l | tr -d ' '
+  # bjobs -noheader wraps EXEC_HOST onto continuation lines for multi-slot
+  # jobs (our -n 4 jobs get one line per host), which inflates a raw
+  # `wc -l` count. Count unique job IDs instead.
+  bjobs -noheader -o "jobid" 2>/dev/null | sort -u | wc -l | tr -d ' '
 }
 
 submitted=0

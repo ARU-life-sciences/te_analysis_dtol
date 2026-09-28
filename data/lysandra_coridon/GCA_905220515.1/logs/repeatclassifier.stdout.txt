@@ -1,5 +1,0 @@
-RepeatClassifier Version 2.0.5
-======================================
-  - Looking for Simple and Low Complexity sequences..
-  - Looking for similarity to known repeat proteins..
-  - Looking for similarity to known repeat consensi..
