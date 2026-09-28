@@ -8,6 +8,7 @@
 data/**/input/*.genome.fasta
 data/**/input/*.repeatmodeler.fa
 data/**/input/*.genome.fasta.cat*.gz
+data/**/input/ncResults-*.err
 data/**/logs/
 data/**/work/
 data/**/results/work_outputs/
